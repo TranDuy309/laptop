@@ -23,7 +23,7 @@ import SanPhamThem from 'src/pages/Products/ThemSanPham.vue'
 import HomeIndex from 'src/pages/Trangchu/Index.vue'
 import HomeTest from 'src/pages/Trangchu/test.vue'
 import HomeCart from 'src/pages/Trangchu/GioHang.vue'
-
+import HomePay from 'src/pages/Trangchu/ThanhToan.vue'
 
 const routes = [{
         path: '/',
@@ -44,6 +44,11 @@ const routes = [{
                 path: 'giohang',
                 name: 'GioHang',
                 component: HomeCart
+            },
+            {
+                path: 'thanhtoan',
+                name: 'ThanhToan',
+                component: HomePay
             },
         ]
 

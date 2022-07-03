@@ -1,7 +1,6 @@
 <template>
-
-    <div class="page-header min-vh-75">
-        <div class="container">
+    <!-- <div class="page-header" style="background-color: "> -->
+        <div class="container" >
             <div class="row">
                 <div class="mx-auto col-xl-6 col-lg-5 col-md-6 d-flex flex-column">
                     <div class="mt-8 card card-plain">
@@ -42,7 +41,7 @@
                                 </card>
                             </div>
                         </div>
-                    </div>
+                    <!-- </div> -->
                 </div>
             </div>
         </div>

@@ -19,25 +19,26 @@
                         <h5 class="card-title" style="font-weight: bold">
                             Thông tin giao hàng
                         </h5>
-                        <span>Bạn đã có tài khoản?&nbsp;<a href="#">Đăng nhập</a></span>
+                        <span>Bạn đã có tài khoản?&nbsp;<a href="#/dangnhap">Đăng nhập</a></span>
+                        <h3></h3>
                         <form>
                             <div class="form-group">
-                                <label for="inputEmail4">Họ và tên</label>
+                                <label for="inputEmail4">Họ và tên:</label>
                                 <input type="text" class="form-control" id="inputAddress2" placeholder="Họ và Tên">
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <label for="inputEmail4">Email</label>
+                                    <label for="inputEmail4">Email:</label>
                                     <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="inputEmail4">Số điện thoại</label>
+                                    <label for="inputEmail4">Số điện thoại:</label>
                                     <input type="text" class="form-control" id="inputPassword4"
                                         placeholder="Số điện thoại">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="inputEmail4">Địa chỉ</label>
+                                <label for="inputEmail4">Địa chỉ:</label>
                                 <input type="text" class="form-control" id="inputAddress" placeholder="Địa chỉ">
                             </div>
                             <button type="submit" class="row-sm-2 btn-primary btn-fill btn btn-lg btn-block"
@@ -54,9 +55,6 @@
                         <h5 class="card-title" style="font-weight: bold">
                             &nbsp;
                         </h5>
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
                                     <table class="table table-bordered">
                                         <thead>
                                             <tr>
@@ -69,7 +67,7 @@
                                                 <th class="col-md-2"
                                                     style="text-align: center !important ; font-weight: bold; color:black">
                                                     Số lượng</th>
-                                                <th class="auto"
+                                                <th class=""
                                                     style="text-align: center !important ; font-weight: bold; color:black">
                                                     Giá sản phẩm</th>
                                             </tr>
@@ -94,7 +92,7 @@
                                                         alt="..." /></th>
                                                 <td>Laptop ASUS TUF Gaming F15 FX506LHB HN188W</td>
                                                 <td style="text-align: center !important">1</td>
-                                                <td>45.000.000</td>
+                                                <td style="text-align: center !important">45.000.000</td>
                                             </tr>
  <tr>
                                                 <td colspan="3">
@@ -103,13 +101,11 @@
                                                     Phí vận chuyển:
                                                     
                                                     </td>
-                                                <td
-                                                    >
+                                                <td style="text-align: center !important">
                                                     100.100.000<span>đ</span>
-                                                    
+                                                    <br style="text-align: auto !important">--
                                                     </td>
                                             </tr>
-
                                             <tr>
                                                 <td colspan="3"
                                                     style=" font-weight: bold; color:black">
@@ -126,11 +122,6 @@
                             </div>
                         </div>
                     </div>
-
-                </div>
-            </div>
-
-        </div>
     </div>
 </template>
 <script>

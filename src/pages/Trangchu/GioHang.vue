@@ -73,11 +73,11 @@
 
 
           <div style="text-align: left">
-              <!-- <router-link to="/quanlysanpham/themsanpham"> -->
+              <router-link to="thanhtoan">
                 <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-danger btn-fill float-right" @click="notifyVue1('top', 'right')">
                   Thanh toán
                 </button>
-              <!-- </router-link> -->
+              </router-link>
             </div>
             <!-- <table class="table table-bordered">
             <thead>
