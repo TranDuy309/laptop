@@ -1,13 +1,13 @@
 <template>
   <footer class="footer">
     <div class="container-fluid">
-      <nav>
+      <!-- <nav>
         <ul class="footer-menu">
           <li>
             <router-link :to="{path:'/admin'}">Dashboard</router-link>
           </li>
         </ul>
-      </nav>
+      </nav> -->
       <div class="copyright text-center">
         &copy; Coded with
         <i class="fa fa-heart heart"></i> by
